@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursodegodesde0/ejercicios"
+	"cursodegodesde0/files"
 )
 
 func main() {
@@ -11,5 +11,7 @@ func main() {
 
 	// teclado.IngresoNumeros()
 	// iteraciones.Iterar()
-	ejercicios.IngresaNumeroParaMultiplicar()
+	// ejercicios.IngresaNumeroParaMultiplicar()
+	// files.SumaTabla()
+	files.LeoArchivo()
 }

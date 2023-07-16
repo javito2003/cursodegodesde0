@@ -7,10 +7,11 @@ import (
 	"strconv"
 )
 
-func IngresaNumeroParaMultiplicar() {
+func IngresaNumeroParaMultiplicar() string {
 	scanner := bufio.NewScanner(os.Stdin)
 	var numero int
 	var err error
+	var texto string
 
 	fmt.Println("Ingrese un numero:")
 	for {
@@ -25,7 +26,8 @@ func IngresaNumeroParaMultiplicar() {
 
 	for i := 1; i <= 10; i++ {
 		resultado := numero * i
-		fmt.Printf("%d x %d = %d \n", numero, i, resultado)
+		texto += fmt.Sprintf("%d x %d = %d \n", numero, i, resultado)
 	}
 
+	return texto
 }
