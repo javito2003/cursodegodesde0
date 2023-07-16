@@ -1,6 +1,8 @@
 package main
 
-import "cursodegodesde0/iteraciones"
+import (
+	"cursodegodesde0/ejercicios"
+)
 
 func main() {
 	// numero, mensaje := ejercicios.EsMayorA100("50")
@@ -8,5 +10,6 @@ func main() {
 	// fmt.Println(mensaje)
 
 	// teclado.IngresoNumeros()
-	iteraciones.Iterar()
+	// iteraciones.Iterar()
+	ejercicios.IngresaNumeroParaMultiplicar()
 }
