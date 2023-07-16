@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursodegodesde0/funciones"
+	"cursodegodesde0/arreglos_slices"
 )
 
 func main() {
@@ -16,5 +16,7 @@ func main() {
 	// files.LeoArchivo()
 	// funciones.Calculos()
 	// funciones.LlamarClosure()
-	funciones.Exponencia(2)
+	// funciones.Exponencia(2)
+	// arreglos_slices.MuestroSlices()
+	arreglos_slices.Capacidad()
 }
