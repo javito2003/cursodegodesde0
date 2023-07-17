@@ -1,7 +1,8 @@
 package main
 
 import (
-	"cursodegodesde0/defer_ejemplo"
+	"cursodegodesde0/goroutines"
+	"fmt"
 )
 
 func main() {
@@ -28,5 +29,11 @@ func main() {
 	// Martina := new(modelos.Mujer)
 	// ejer_interfaces.HumanosRespirando(Martina)
 
-	defer_ejemplo.EjemploPanic()
+	// defer_ejemplo.EjemploPanic()
+
+	go goroutines.MiNombreLento("Javico")
+
+	fmt.Println("Estoy aqui")
+	var x string
+	fmt.Scanln(&x)
 }
