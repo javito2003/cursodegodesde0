@@ -1,8 +1,7 @@
 package main
 
 import (
-	"cursodegodesde0/ejer_interfaces"
-	"cursodegodesde0/modelos"
+	"cursodegodesde0/defer_ejemplo"
 )
 
 func main() {
@@ -23,9 +22,11 @@ func main() {
 	// mapas.MostrarMapa()
 	// users.AltaUsuario()
 
-	Pedro := new(modelos.Hombre)
-	ejer_interfaces.HumanosRespirando(Pedro)
+	// Pedro := new(modelos.Hombre)
+	// ejer_interfaces.HumanosRespirando(Pedro)
 
-	Martina := new(modelos.Mujer)
-	ejer_interfaces.HumanosRespirando(Martina)
+	// Martina := new(modelos.Mujer)
+	// ejer_interfaces.HumanosRespirando(Martina)
+
+	defer_ejemplo.EjemploPanic()
 }
