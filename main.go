@@ -2,7 +2,6 @@ package main
 
 import (
 	"cursodegodesde0/goroutines"
-	"fmt"
 )
 
 func main() {
@@ -31,9 +30,11 @@ func main() {
 
 	// defer_ejemplo.EjemploPanic()
 
-	go goroutines.MiNombreLento("Javico")
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLento("Javico", canal1)
+	<-canal1
 
-	fmt.Println("Estoy aqui")
-	var x string
-	fmt.Scanln(&x)
+	// fmt.Println("Estoy aqui")
+	// var x string
+	// fmt.Scanln(&x)
 }
