@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursodegodesde0/mapas"
+	"cursodegodesde0/users"
 )
 
 func main() {
@@ -19,5 +19,6 @@ func main() {
 	// funciones.Exponencia(2)
 	// arreglos_slices.MuestroSlices()
 	// arreglos_slices.Capacidad()
-	mapas.MostrarMapa()
+	// mapas.MostrarMapa()
+	users.AltaUsuario()
 }
