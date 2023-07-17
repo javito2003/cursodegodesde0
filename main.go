@@ -1,7 +1,7 @@
 package main
 
 import (
-	"cursodegodesde0/arreglos_slices"
+	"cursodegodesde0/mapas"
 )
 
 func main() {
@@ -18,5 +18,6 @@ func main() {
 	// funciones.LlamarClosure()
 	// funciones.Exponencia(2)
 	// arreglos_slices.MuestroSlices()
-	arreglos_slices.Capacidad()
+	// arreglos_slices.Capacidad()
+	mapas.MostrarMapa()
 }
