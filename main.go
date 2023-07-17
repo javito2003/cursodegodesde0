@@ -1,7 +1,8 @@
 package main
 
 import (
-	"cursodegodesde0/users"
+	"cursodegodesde0/ejer_interfaces"
+	"cursodegodesde0/modelos"
 )
 
 func main() {
@@ -20,5 +21,11 @@ func main() {
 	// arreglos_slices.MuestroSlices()
 	// arreglos_slices.Capacidad()
 	// mapas.MostrarMapa()
-	users.AltaUsuario()
+	// users.AltaUsuario()
+
+	Pedro := new(modelos.Hombre)
+	ejer_interfaces.HumanosRespirando(Pedro)
+
+	Martina := new(modelos.Mujer)
+	ejer_interfaces.HumanosRespirando(Martina)
 }
